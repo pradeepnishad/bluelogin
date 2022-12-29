@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color:rgba(131,190,204,255); 
+}
+
+.main{
+    width: 80%;
+    height: 550px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    background-color:rgba(131,190,204,255);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+}
+
+.dp{
+    width: 130px;
+    height: 130px;
+    margin-top: 3rem;
+}
+
+.label-1{
+    width:80%;
+    height: 60px;
+    margin-top: 30px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    margin-top: 3px;
+}
+
+.forget{
+    text-decoration: none;
+    margin-top: 0.3rem;
+    margin-left: 9rem;
+    color: white;
+    font-size: 0.8rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+}
+
+.forget:hover{
+    color: rgba(20,44,56,255);
+    
+}
+
+.button{
+    width: 100%;
+    height: 50px;
+    margin-top: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.button a{
+    color: rgba(131,190,204,255);
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.login{
+    margin-right: 20px;
+    padding: 10px 25px;
+}
+
+.register{
+    margin-left: 20px;
+    padding: 10px 18px;
+}
+
+.login:hover{
+    background-color: rgba(20,44,56,255);
+    color: white;
+}
+.register:hover{
+    background-color: rgba(20,44,56,255);
+    color: white;
+}
+
+.copyright{
+    margin-top: 8rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    animation: mymove 2s infinite;
+}
+
+@keyframes mymove {
+    0%   {color:rgba(20,44,56,255);}
+    25%  {color:rgb(41, 84, 105)}
+    50%  {color:rgb(61, 90, 104);}
+    100% {color: white;}
+  }
